@@ -11,6 +11,7 @@ socket = r:TCP_NODELAY=1
 
 CAfile = ${STUNNEL_CAFILE}
 verifyChain = ${STUNNEL_VERIFY_CHAIN}
+sslVersion = SSLv3
 
 debug = ${STUNNEL_DEBUG}
 output = /var/log/stunnel/stunnel.log
